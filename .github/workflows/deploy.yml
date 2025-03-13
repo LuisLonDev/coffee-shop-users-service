@@ -6,12 +6,11 @@ on:
 
 env:
   AWS_REGION: us-east-1                 
-  ECR_REPOSITORY: users-service           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: coffee-shop-services-repo                
   # ECS_SERVICE: MY_ECS_SERVICE                 # set this to your Amazon ECS service name
   # ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
   # ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
-  #                                              # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: user-service          
+  #                                              # file, e.g. .aws/task-definition.json       
 
 permissions:
   contents: read
